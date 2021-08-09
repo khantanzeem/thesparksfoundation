@@ -38,14 +38,14 @@ CREATE TABLE `mini_statement` (
 --
 
 INSERT INTO `mini_statement` (`sender`, `receiver`, `amount`) VALUES
-('Monika', 'Prathamesh', 1),
-('Vaishali', 'Avinash', 100),
-('Shruti', 'Mahi', 140),
-('Mrudula', 'Shruti', 50),
-('Mahi', 'Shruti', 80),
-('Mrudula', 'Mahi', 200),
-('Avinash', 'Atharv', 140),
-('Monika', 'Mahi', 130);
+('yogendra', 'tanzeem', 100),
+('tanzeem', 'satyesh', 60),
+('tanzeem	', 'yogendra', 13),
+('tanzeem', 'ashwani', 2),
+('tanzeem	', 'yogendra', 1),
+('tanzeem	', 'yogendra', 122),
+('tanzeem	', 'yogendra', 500),
+('yogendra', 'tanzeem', 221);
 
 -- --------------------------------------------------------
 
@@ -64,16 +64,16 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`name`, `email`, `amount`) VALUES
-('Monika', 'monika@gmail.com', 729),
-('Prathamesh', 'prathamesh@gmail.com', 1001),
-('Mahi', 'mahi@gmail.com', 1480),
-('Shruti', 'shruti@gmail.com', 990),
-('Diksha', 'diksha@gmail.com', 1010),
-('Piya', 'piya@gmail.com', 990),
-('Mrudula', 'mrudula@gmail.com', 800),
-('Atharv', 'atharv@gmail.com', 1140),
-('Avinash', 'avinash@gmail.com', 960),
-('Vaishali', 'vaishali@gmail.com', 900);
+('tanzeem', 'khantanzeem999@gmail.com', 944),
+('yogendra', 'yogi1234@gmail.com', 1106),
+('ashwani','ashwani123@gmail.com', 802),
+('farheen', 'farheen321@gmail.com', 3503),
+('niharika', 'niharika222@gmail.com', 3450),
+('satyesh', 'satya456@gmail.com', 3460),
+('shivam', 'shivam123@gmail.com', 7000),
+('saurabh', 'saurabh567@gmail.com', 4590),
+('divyansh', 'adivyansh121@gmail.com', 4578),
+('shrishti', 'shrishti123@gmail.com', 5678);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
