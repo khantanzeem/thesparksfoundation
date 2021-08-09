@@ -40,11 +40,11 @@ CREATE TABLE `mini_statement` (
 INSERT INTO `mini_statement` (`sender`, `receiver`, `amount`) VALUES
 ('yogendra', 'tanzeem', 100),
 ('tanzeem', 'satyesh', 60),
-('tanzeem	', 'yogendra', 13),
+('tanzeem', 'yogendra', 13),
 ('tanzeem', 'ashwani', 2),
-('tanzeem	', 'yogendra', 1),
-('tanzeem	', 'yogendra', 122),
-('tanzeem	', 'yogendra', 500),
+('tanzeem', 'yogendra', 1),
+('tanzeem', 'yogendra', 122),
+('tanzeem', 'yogendra', 500),
 ('yogendra', 'tanzeem', 221);
 
 -- --------------------------------------------------------
